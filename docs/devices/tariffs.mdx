@@ -335,13 +335,13 @@ Preisdaten von https://www.mercatoelettrico.org/it/. Wird oft zur Einspeisung in
 
 ### SmartEnergy smartCONTROL
 
-Nur für Österreich verfügbar.
+Nur für Österreich verfügbar. API liefert Energiepreis inkl. 20% Mwst - entsprechend muss Aufschlag von 1.44c (ebenfalls inkl. Mwst.) angegeben werden.
 
 <DeviceConfig code={`tariffs:
     grid:
       type: template
       template: smartenergy
-      charges: # Zusätzlicher fester Aufschlag pro kWh (z.B. 0.05 für 5 Cent) (optional)
+      charges: 0.0144 # Zusätzlicher fester Aufschlag pro kWh (z.B. 0.05 für 5 Cent) (optional)
       tax: # Zusätzlicher prozentualer Aufschlag (z.B. 0.2 für 20%) (optional)`}  />
 
 
