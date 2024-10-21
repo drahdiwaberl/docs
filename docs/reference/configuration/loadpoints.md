@@ -12,8 +12,8 @@ sidebar_position: 3
 loadpoints:
   - title: Garage # display name for UI
     charger: wallbox # Wallbox Referenz
-    vehicle: audi # Referenz auf Standardfahrzeug
-    mode: pv # charge mode (off, now, minpv, pv)
+    vehicle: audi # Referenz auf Standardfahrzeug (optional)
+    mode: pv # charge mode (off, now, minpv, pv) (optional)
 ```
 
 Referenzen sind hierbei immer die Werte des Parameters `name` (z.B. `wallbox`) in der jeweiligen Gerätekonfiguration.
